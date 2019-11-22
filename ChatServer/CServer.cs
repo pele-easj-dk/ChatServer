@@ -48,6 +48,7 @@ namespace ChatServer
             StreamReader sr = new StreamReader(socket.GetStream());
             try
             {
+                // indsat kommentar
                 while (true) // ToDo  stop at STOP string
                 {
                     String str = sr.ReadLine();
